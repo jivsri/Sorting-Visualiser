@@ -1,0 +1,32 @@
+*{
+    font-family: 'Slabo 27px', serif;
+}
+.bar-container{
+    /* border: 2px solid red; */
+    height: 500px;
+    /* width: 800px; */
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.bar{
+    width: 10px;
+    border: 2px solid red;
+    margin: 0 0.2px;
+    background-color: rgba(52, 134, 216, 0.519);
+}
+
+.slider{
+    /* border: 2px solid black; */
+    /* display: inline; */
+    margin: 10px;
+}
+
+#slide{
+    margin-left: 50px;
+    cursor: pointer;
+}
