@@ -1,0 +1,61 @@
+*{
+    font-family: 'Slabo 27px', serif;
+    /* background-color: red; */
+}
+
+body{
+    background-color: red;
+}
+
+#bar-container{
+    /* border: 2px solid red; */
+    /* height: 500px; */
+    height: 100%;
+    background-color:  #e8e4f0;
+    /* width: 800px; */
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+#speed{
+    cursor: pointer;
+}
+input{
+    width: 200px;
+}
+.bar{
+    width: 10px;
+    border: 1px solid;
+    margin: 0 0.210px;
+    background-color: rgba(52, 134, 216, 0.519);
+}
+
+.slider{
+    /* border: 2px solid black; */
+    /* display: inline; */
+     /* margin-top: 100px; */
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    /* border: 2px solid black; */
+}
+
+#slide{
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.f{
+    height: 72.5vh;
+    width: 100%;
+    background-color:  #e8e4f0;
+    border-top: 2px solid black;
+}
